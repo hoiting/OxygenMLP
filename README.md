@@ -35,3 +35,13 @@ The prediction of oxygen abundance can be done by simply:
 z, z_err = oxygenClass.predictZ()
 ```
 	
+
+#### What is what
+| filename     |       |
+|--------------|-------|
+| OxygenMLP.py | python class |
+| best_models.pkl | neural network models| 
+| example.py    | example script | 
+| data.txt      | data used by example.py | 
+|--------------|-------|
+
