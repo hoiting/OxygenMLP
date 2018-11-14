@@ -14,9 +14,9 @@ class OxygenMLP:
 	> 	oxygenClass.ingestLines(o2,o3,n2,s2)
 	
 	where o2, o3, n2, s2 are numpy arrays of the line fluxes normalized to H-beta
-	o2 = (3727+3729) / H-beta
+	o2 = (3726+3729) / H-beta
 	o3 = 5007 / H-beta
-	n2 = 6584 / H-beta
+	n2 = 6583 / H-beta
 	s2 = (6716+6731) / H-beta	
 
 	All the line ratios need to be there. NaN is not accepted (will return NaN for oxygen abundance). 

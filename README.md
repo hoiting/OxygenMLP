@@ -22,10 +22,11 @@ The line flux ratios are then feed to the class via
 oxygenClass.ingestLines(o2,o3,n2,s2)
 ```
 where o2, o3, n2, s2 are numpy arrays of the line fluxes normalized to H-beta
-o2 = (3727+3729) / H-beta
-o3 = 5007 / H-beta
-n2 = 6584 / H-beta
-s2 = (6716+6731) / H-beta	
+
+* o2 = ([OII]3726+[OII]3729) / H-beta
+* o3 = [OIII]5007 / H-beta
+* n2 = [NII]6583 / H-beta
+* s2 = ([SII]6716+[SII]6731) / H-beta	
 
 Note that all the line ratios need to be there. NaN is not accepted (will return NaN for oxygen abundance). 
 
