@@ -3,6 +3,29 @@ import numpy as np
 import sklearn
 
 class OxygenMLP:
+	'''
+	This is a class for using the neural network model to predict oxygen abundance.
+	The class should first be created by 
+	
+	> import OxygenMLP
+	> oxygenClass = OxygenMLP.OxygenMLP()
+
+	The line flux ratios are then feed to the class via 
+	> 	oxygenClass.ingestLines(o2,o3,n2,s2)
+	
+	where o2, o3, n2, s2 are numpy arrays of the line fluxes normalized to H-beta
+	o2 = (3727+3729) / H-beta
+	o3 = 5007 / H-beta
+	n2 = 6584 / H-beta
+	s2 = (6716+6731) / H-beta	
+
+	All the line ratios need to be there. NaN is not accepted (will return NaN for oxygen abundance). 
+
+	The prediction of oxygen abundance can be done by simply:
+	> z, z_err = oxygenClass.predictZ()
+
+	
+	'''
 	def __init__(self):
 		self.pipes = joblib.load('best_models.pkl')
 		self.featureList = ['self.o2','self.o3','self.n2','self.s2',
