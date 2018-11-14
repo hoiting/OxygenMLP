@@ -1,13 +1,13 @@
-# OxygenMLP
-A neural network, multi-layer perceptron model to predict oxygen abundance from strong lines. The model is calibrated to ~ 950 literature HII region spectra with auroral line detections. Details can be found in this paper [link]. 
+## OxygenMLP
+*OxygenMLP* is a neural network, multi-layer perceptron model to predict oxygen abundance from strong lines. The model is calibrated using ~ 950 literature HII region spectra with auroral line detections and scikit-learn. Details can be found in this paper [link]. 
 
-### Dependencies
+#### Dependencies
 * Python 3
 * scikit-learn
 * numpy 
 
 
-### Usage:
+#### Usage:
 *Check out the example script example.py that does the left panel of Fig. 10 in the paper*
 
 OxygenMLP is a class for using the neural network model to predict oxygen abundance.
