@@ -37,11 +37,10 @@ z, z_err = oxygenClass.predictZ()
 	
 
 #### What is what
-| filename     |       |
+| filename     |   content    |
 |--------------|-------|
 | OxygenMLP.py | python class |
 | best_models.pkl | neural network models| 
 | example.py    | example script | 
 | data.txt      | data used by example.py | 
-|--------------|-------|
 
