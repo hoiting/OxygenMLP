@@ -8,8 +8,7 @@ A neural network, multi-layer perceptron model to predict oxygen abundance from 
 
 
 ### Usage:
-Check out the example script example.py that does the left panel of Fig. 10 in the paper
-
+*Check out the example script example.py that does the left panel of Fig. 10 in the paper*
 
 OxygenMLP is a class for using the neural network model to predict oxygen abundance.
 The class should first be initialised by 
