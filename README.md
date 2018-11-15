@@ -17,7 +17,7 @@ import OxygenMLP
 oxygenClass = OxygenMLP.OxygenMLP()
 ```
 
-The line flux ratios are then feed to the class via 
+The line flux ratios are then fed to the class via 
 ```python
 oxygenClass.ingestLines(o2,o3,n2,s2)
 ```
