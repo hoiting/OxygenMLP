@@ -10,8 +10,8 @@
 #### What is what?
 | Filename     |   Content    |
 |--------------|-------|
-| `OxygenMLP.py` | python class |
-| `best_models.pkl` | neural network models| 
+| `OxygenMLP.py` | main python class |
+| `best_models.pkl` | neural network models | 
 | `example.py`    | example script | 
 | `data.txt`      | data used by example.py | 
 
