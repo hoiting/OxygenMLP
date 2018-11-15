@@ -30,7 +30,7 @@ The line flux ratios are then fed to the class via
 ```python
 oxygenClass.ingestLines(o2,o3,n2,s2)
 ```
-where o2, o3, n2, s2 are numpy arrays of the line fluxes normalized to H-beta
+where o2, o3, n2, s2 are numpy arrays of the extinction-corrected line fluxes normalized to H-beta
 
 * o2 = ([OII]3726+[OII]3729) / H-beta
 * o3 = [OIII]5007 / H-beta
