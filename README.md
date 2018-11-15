@@ -7,6 +7,15 @@
 * numpy 
 
 
+#### What is what?
+| Filename     |   Content    |
+|--------------|-------|
+| `OxygenMLP.py` | python class |
+| `best_models.pkl` | neural network models| 
+| `example.py`    | example script | 
+| `data.txt`      | data used by example.py | 
+
+
 #### Usage:
 *Check out the example script example.py that does the left panel of Fig. 10 in the paper*
 
@@ -35,12 +44,3 @@ The prediction of oxygen abundance can be done by simply:
 z, z_err = oxygenClass.predictZ()
 ```
 	
-
-#### What is what
-| filename     |   content    |
-|--------------|-------|
-| OxygenMLP.py | python class |
-| best_models.pkl | neural network models| 
-| example.py    | example script | 
-| data.txt      | data used by example.py | 
-
