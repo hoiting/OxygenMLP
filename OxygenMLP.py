@@ -14,10 +14,10 @@ class OxygenMLP:
 	> 	oxygenClass.ingestLines(o2,o3,n2,s2)
 	
 	where o2, o3, n2, s2 are numpy arrays of the line fluxes normalized to H-beta
-	o2 = (3726+3729) / H-beta
-	o3 = 5007 / H-beta
-	n2 = 6583 / H-beta
-	s2 = (6716+6731) / H-beta	
+	o2 = ([OII]3726+[OII]3729) / H-beta
+	o3 = [OIII]5007 / H-beta
+	n2 = [OIII]6583 / H-beta
+	s2 = ([SII]6716+[SII]6731) / H-beta	
 
 	All the line ratios need to be there. NaN is not accepted (will return NaN for oxygen abundance). 
 
@@ -27,7 +27,7 @@ class OxygenMLP:
 	
 	'''
 	def __init__(self):
-		self.pipes = joblib.load('best_models.pkl')
+		self.pipes = joblib.load('bestModels.pkl')
 		self.featureList = ['self.o2','self.o3','self.n2','self.s2',
 		                     'self.o3/self.o2','self.n2/self.o2','self.s2/self.o2',
 		                     'self.n2/self.o3','self.s2/self.o3','self.s2/self.n2',
