@@ -11,7 +11,7 @@
 | Filename     |   Content    |
 |--------------|-------|
 | `OxygenMLP.py` | main python class |
-| `best_models.pkl` | neural network models | 
+| `bestModels.pkl` | neural network models | 
 | `example.py`    | example script | 
 | `data.txt`      | data used by example.py | 
 
