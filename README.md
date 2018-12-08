@@ -46,4 +46,4 @@ z, z_err = oxygenClass.predictZ()
 	
 
 #### Contact:
-For bug report and question, please write to I-Ting Ho[iting@mpia.de]
+For bug report and question, please write to [I-Ting Ho](iting@mpia.de)
