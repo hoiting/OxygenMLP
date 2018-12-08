@@ -44,3 +44,6 @@ The prediction of oxygen abundance can be done by simply:
 z, z_err = oxygenClass.predictZ()
 ```
 	
+
+#### Contact:
+For bug report and question, please write to I-Ting Ho[iting@mpia.de]
