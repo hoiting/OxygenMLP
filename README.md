@@ -45,7 +45,8 @@ The prediction of oxygen abundance can be done by simply:
 ```python
 z, z_err = oxygenClass.predictZ()
 ```
-	
+
+Note: z_err is the standard deviation of the 100 predictions. If you want to propagate your measurement errors, you should do Monte Carlo simulations, i.e. create realizations of line fluxes, pass them through the model, and get the final z distribution (see Appendix in the paper). 
 
 #### Contact:
 For bug report and question, please write to [I-Ting Ho](iting@mpia.de)
