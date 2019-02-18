@@ -14,6 +14,8 @@
 | `bestModels.pkl` | neural network models | 
 | `example.py`    | example script | 
 | `data.txt`      | data used by example.py | 
+| `inputdata.data`      | input catalog used for training and testing the model| 
+
 
 
 #### Usage:

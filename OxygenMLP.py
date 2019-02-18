@@ -54,6 +54,7 @@ class OxygenMLP:
 		indGood = np.where(np.isfinite(XFlat))
 		# make output array
 		predict = np.zeros((len(self.pipes),self.X.shape[0])) + np.nan
+
 		# fill in predictions from different pipe
 		for i,pipe in enumerate(self.pipes):
 			predict[i,indGood] = pipe.predict(self.X[indGood])
