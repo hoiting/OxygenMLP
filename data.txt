@@ -1,4 +1,4 @@
-# Data used in Fig 10 left panel of Ho et al. 
+# Data used in Fig 10 left panel of Ho (2019)
 # r[R25], OII/H-beta, OIII/H-beta, NII/H-beta, SII/H-beta, source
   0.01   0.639   0.069   1.083   0.680                 CHAOS III
   0.03   0.444   0.051   0.820   0.362                 CHAOS III
