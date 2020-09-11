@@ -10,7 +10,7 @@
 #### What is what?
 | Filename     |   Content    |
 |--------------|-------|
-| `OxygenMLP.py` | main python class |
+| `core.py` | main python class |
 | `bestModels.pkl` | neural network models | 
 | `example.py`    | example script | 
 | `data.txt`      | data used by example.py | 

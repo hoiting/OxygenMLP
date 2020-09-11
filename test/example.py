@@ -1,5 +1,5 @@
 import numpy as np
-import OxygenMLP
+from OxygenMLP import OxygenMLP
 
 if __name__ == '__main__':
 	# Read in test data
@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
 	# Apply MLP model	
 	# Step 1: Load class
-	oxygenClass = OxygenMLP.OxygenMLP()
+	oxygenClass = OxygenMLP()
 	# Step 2: Send data into class
 	oxygenClass.ingestLines(o2,o3,n2,s2)
 	# Step 3: get predictions

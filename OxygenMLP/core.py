@@ -1,6 +1,9 @@
-from sklearn.externals import joblib
+import joblib
 import numpy as np
 import sklearn
+from os import path
+
+here = path.abspath(path.dirname(__file__))
 
 class OxygenMLP:
 	'''
@@ -27,7 +30,7 @@ class OxygenMLP:
 	
 	'''
 	def __init__(self):
-		self.pipes = joblib.load('bestModels.pkl')
+		self.pipes = joblib.load(here + '/bestModels.pkl')
 		self.featureList = ['self.o2','self.o3','self.n2','self.s2',
 		                     'self.o3/self.o2','self.n2/self.o2','self.s2/self.o2',
 		                     'self.n2/self.o3','self.s2/self.o3','self.s2/self.n2',
