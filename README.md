@@ -7,14 +7,19 @@
 * numpy 
 
 
+#### Installation
+!pip install -U git+https://github.com/morisset/OxygenMLP.git
+
+!pip install -U git+https://github.com/hoiting/OxygenMLP.git
+
 #### What is what?
 | Filename     |   Content    |
 |--------------|-------|
-| `OxygenMLP.py` | main python class |
-| `bestModels.pkl` | neural network models | 
-| `example.py`    | example script | 
-| `data.txt`      | data used by example.py | 
-| `inputdata.data`      | input catalog used for training and testing the model| 
+| `OxygenMLP/core.py` | main python class |
+| `OxygenMLP/bestModels.pkl` | neural network models | 
+| `test/example.py`    | example script | 
+| `test/data.txt`      | data used by example.py | 
+| `test/inputdata.data`      | input catalog used for training and testing the model| 
 
 
 
@@ -24,8 +29,8 @@
 OxygenMLP is a class for using the neural network model to predict oxygen abundance.
 The class should first be initialised by 
 ```python	
-import OxygenMLP
-oxygenClass = OxygenMLP.OxygenMLP()
+from OxygenMLP import OxygenMLP
+oxygenClass = OxygenMLP()
 ```
 
 The line flux ratios are then fed to the class via 
